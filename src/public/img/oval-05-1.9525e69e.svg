@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="988px" height="710px" viewBox="0 0 988 710" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>oval-05-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,355.03341 C0,355.03341 42.7519531,329.737774 74.8574219,362.765117 C106.962891,395.792461 149.714844,369.302941 149.714844,369.302941" id="path-1"></path>
+        <path d="M747,523.236221 C747,523.236221 780.410037,503.468045 805.5,529.27844 C830.589963,555.088835 864,534.387655 864,534.387655" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="oval-05-1" transform="translate(18.000000, 1.000000)">
+            <ellipse id="Mask" stroke="#222222" stroke-width="2" fill="#FFFFFF" cx="939.5" cy="350.5" rx="29.5" ry="29.5"></ellipse>
+            <path d="M540.144537,147.144537 L494.144537,147.144537 L494.144537,176.144537 L540.144537,176.144537 L540.144537,222.144537 L569.144537,222.144537 L569.144537,176.144537 L615.144537,176.144537 L615.144537,147.144537 L569.144537,147.144537 L569.144537,101.144537 L540.144537,101.144537 L540.144537,147.144537 Z" id="Combined-Shape" stroke="#222222" stroke-width="2" fill="#FFFFFF" transform="translate(554.644537, 161.644537) rotate(-300.000000) translate(-554.644537, -161.644537) "></path>
+            <path d="M212.923518,670.923518 L190.698966,670.923518 L190.698966,684.934649 L212.923518,684.934649 L212.923518,707.159201 L226.934649,707.159201 L226.934649,684.934649 L249.159201,684.934649 L249.159201,670.923518 L226.934649,670.923518 L226.934649,648.698966 L212.923518,648.698966 L212.923518,670.923518 Z" id="Combined-Shape-Copy" stroke="#222222" stroke-width="2" fill="#FFFFFF" transform="translate(219.929083, 677.929083) rotate(-300.000000) translate(-219.929083, -677.929083) "></path>
+            <ellipse id="Mask-Copy-4" stroke="#222222" stroke-width="2" fill="#FFFFFF" cx="445.5" cy="29.5" rx="29.5" ry="29.5"></ellipse>
+            <ellipse id="Mask-Copy-2" stroke="#222222" stroke-width="2" fill="#FFFFFF" cx="613" cy="628" rx="19" ry="19"></ellipse>
+            <circle id="Mask-Copy-3" stroke="#222222" stroke-width="2" fill="#FFFFFF" cx="90.5" cy="172.5" r="10.5"></circle>
+            <g id="Path-2" stroke-linecap="round" stroke-linejoin="round">
+                <use stroke="#000000" stroke-width="35" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" stroke-width="31" xlink:href="#path-1"></use>
+            </g>
+            <g id="Path-2-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(805.500000, 529.121289) rotate(-180.000000) translate(-805.500000, -529.121289) ">
+                <use stroke="#000000" stroke-width="26" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" stroke-width="22" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

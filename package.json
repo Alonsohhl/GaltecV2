@@ -1,0 +1,18 @@
+{
+  "name": "galtec",
+  "version": "1.0.0",
+  "description": "Rework Pagina Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alonso Huayta Laura",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}
