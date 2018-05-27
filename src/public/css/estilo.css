@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:700|Kanit:700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+@font-face {
+  font-family: 'gilroy-extrabold';
+  src: url("fonts/gilroy-extrabold-webfont.woff2") format("woff2"), url("fonts/gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.loader2 {
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  position: absolute;
+  background-color: #e70011;
+  -webkit-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out; }
+
+.loader2 .msg-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center; }
+
+.loader2 .loader-iconn {
+  margin: 0;
+  position: absolute;
+  height: 45%;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+@-webkit-keyframes preloader_rotation {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(1turn); } }
+
+@keyframes preloader_rotation {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(1turn); } }
+
+.st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: none; }
+
+.st1 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #ffffff; }
+
+.st2 {
+  fill: #ffffff; }
+
+@-webkit-keyframes moveleaf {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes moveleaf {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.florece {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: moveleaf 3s infinite;
+  animation: moveleaf 3s infinite; }

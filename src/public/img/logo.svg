@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3000 1920" style="enable-background:new 0 0 3000 1920;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7F1423;stroke:#010101;stroke-miterlimit:10;}
+	.st1{fill:#580F12;stroke:#010101;stroke-miterlimit:10;}
+	.st2{fill:#911925;stroke:#010101;stroke-miterlimit:10;}
+	.st3{fill:#801420;stroke:#010101;stroke-miterlimit:10;}
+	.st4{fill:#881924;stroke:#010101;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#010101;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#7C181F;stroke:#010101;stroke-miterlimit:10;}
+	.st7{fill:#600812;stroke:#010101;stroke-miterlimit:10;}
+	.st8{fill:#791D26;stroke:#010101;stroke-miterlimit:10;}
+	.st9{fill:#9F1C2B;stroke:#010101;stroke-miterlimit:10;}
+	.st10{fill:#641316;stroke:#010101;stroke-miterlimit:10;}
+	.st11{fill:#7C1317;stroke:#010101;stroke-miterlimit:10;}
+	.st12{fill:#7B1423;stroke:#010101;stroke-miterlimit:10;}
+	.st13{fill:#700F12;stroke:#010101;stroke-miterlimit:10;}
+	.st14{fill:#5F0C10;stroke:#010101;stroke-miterlimit:10;}
+	.st15{fill:#660F11;stroke:#010101;stroke-miterlimit:10;}
+	.st16{fill:#84323A;stroke:#010101;stroke-miterlimit:10;}
+	.st17{fill:#491312;stroke:#010101;stroke-miterlimit:10;}
+	.st18{fill:#401212;stroke:#010101;stroke-miterlimit:10;}
+	.st19{fill:#571217;stroke:#010101;stroke-miterlimit:10;}
+	.st20{fill:#87171A;stroke:#010101;stroke-miterlimit:10;}
+	.st21{fill:#4C1315;stroke:#010101;stroke-miterlimit:10;}
+	.st22{fill:#741824;stroke:#010101;stroke-miterlimit:10;}
+	.st23{fill:#821B34;stroke:#010101;stroke-miterlimit:10;}
+	.st24{fill:#590F19;stroke:#010101;stroke-miterlimit:10;}
+	.st25{fill:#751922;stroke:#010101;stroke-miterlimit:10;}
+	.st26{fill:#571111;stroke:#010101;stroke-miterlimit:10;}
+	.st27{fill:#8D3E47;stroke:#010101;stroke-miterlimit:10;}
+	.st28{fill:#561517;stroke:#010101;stroke-miterlimit:10;}
+	.st29{fill:#841E30;stroke:#010101;stroke-miterlimit:10;}
+	.st30{fill:#A22722;stroke:#010101;stroke-miterlimit:10;}
+	.st31{fill:#7A1933;stroke:#010101;stroke-miterlimit:10;}
+	.st32{fill:#601015;stroke:#010101;stroke-miterlimit:10;}
+	.st33{fill:#CF3D58;stroke:#010101;stroke-miterlimit:10;}
+	.st34{fill:#8D1B2F;stroke:#010101;stroke-miterlimit:10;}
+	.st35{fill:#982F41;stroke:#010101;stroke-miterlimit:10;}
+
+
+	@keyframes example {
+		0% {fill:#982F41;}
+		
+		100% {fill:black;}
+}
+
+.movi {
+   
+    $randomNumber: random(5);
+    animation-name: example;
+    animation-duration: $randomNumber+4s;
+	animation-iteration-count: infinite;
+}
+
+
+</style>
+<g id="Tronco">
+	<polygon id="XMLID_106_" class="st0 movi" points="121.2,164 156.9,308.7 176.6,428.1 198.2,224.2 	" />
+	<polygon id="XMLID_105_" class="st1 movi" points="785.5,110.5 714.1,133 760.2,160.3 	"/>
+	<polygon id="XMLID_104_" class="st2 movi" points="760.2,160.3 714.1,133 723.5,193.2 	"/>
+	<polygon id="XMLID_103_" class="st3 movi" points="291.4,665.1 308.2,719.4 318.5,851 299.7,1068 391.8,1100 400.3,893.3 	"/>
+	<polygon id="XMLID_102_" class="st4" points="391.8,1100 471.7,1072.7 400.3,893.3 	"/>
+	<polygon id="XMLID_101_" class="st5" points="488.8,401.4 489.5,400.8 540.3,340.7 526.2,254.2 489,400.7 	"/>
+	<polygon id="XMLID_100_" class="st6" points="602.8,349.2 592.9,316.3 540.3,340.7 	"/>
+	<polygon id="XMLID_99_" class="st7" points="592.9,316.3 723.5,193.2 540.3,340.7 	"/>
+	<polygon id="XMLID_98_" class="st8" points="533.7,399.9 602.8,349.2 540.3,340.7 	"/>
+	<polygon id="XMLID_97_" class="st9" points="802.5,223.2 860.7,185.7 723.5,193.2 723.5,271.2 	"/>
+	<polygon id="XMLID_96_" class="st10" points="533.7,399.9 550.6,532.4 602.8,349.2 	"/>
+	<polygon id="XMLID_95_" class="st11" points="620.2,252.4 540.3,340.7 723.5,193.2 654,220.4 	"/>
+	<polygon id="XMLID_94_" class="st5" points="288.4,493.9 322.3,532.4 322.3,493.9 	"/>
+	<polygon id="XMLID_91_" class="st5" points="488.8,401.4 489,400.7 526.2,254.2 423.8,453.5 	"/>
+	<polygon id="XMLID_90_" class="st12" points="423.8,453.5 526.2,254.2 377.7,360.7 	"/>
+	<polygon id="XMLID_89_" class="st13" points="540.3,340.7 620.2,252.4 654,220.4 723.5,193.2 714.1,133 671.8,170.6 623.9,185.7 
+		582.3,229.8 	"/>
+	<polygon id="XMLID_88_" class="st14" points="582.3,229.8 623.9,185.7 682.2,129.3 670,105.8 633.3,129.3 609.8,117 526.2,254.2 
+		540.3,340.7 	"/>
+	<polygon id="XMLID_87_" class="st15" points="617.3,44.7 586.3,40 553.4,135.8 526.2,254.2 609.8,117 	"/>
+	<polygon id="XMLID_86_" class="st16" points="465.1,734.4 550.6,532.4 438.8,598.2 	"/>
+	<polygon id="XMLID_85_" class="st17" points="482,498.6 463.2,532.4 438.8,598.2 550.6,532.4 533.7,399.9 	"/>
+	<polygon id="XMLID_84_" class="st18" points="602.8,349.2 640.8,416.8 697.2,315.3 	"/>
+	<polygon id="XMLID_83_" class="st19" points="550.6,532.4 640.8,416.8 602.8,349.2 	"/>
+	<polygon id="XMLID_82_" class="st20" points="818.4,234.5 697.2,315.3 835.1,279.7 905.8,229.8 	"/>
+	<polygon id="XMLID_81_" class="st21" points="640.8,416.8 835.1,279.7 697.2,315.3 	"/>
+	<polygon id="XMLID_80_" class="st22" points="322.3,493.9 377.7,360.7 299.7,346.3 315.7,420.6 277.2,422.5 241.5,382 228.3,316.3 
+		198.2,224.2 176.6,428.1 288.4,493.9 	"/>
+	<polygon id="XMLID_79_" class="st23" points="176.6,428.1 93.9,355.7 20.6,322.8 89.2,437.5 190.7,532.4 270.6,597.2 233.6,513.1 	
+		"/>
+	<polygon id="XMLID_78_" class="st24" points="288.4,493.9 176.6,428.1 233.6,513.1 270.6,597.2 322.3,532.4 	"/>
+	<polygon id="XMLID_77_" class="st25" points="526.2,254.2 451,295.6 382.4,302.2 344.8,251.4 241.5,212 299.7,346.3 377.7,360.7 	
+		"/>
+	<polygon id="XMLID_76_" class="st26" points="489.5,400.8 488.8,401.4 438.8,598.2 463.2,532.4 482,498.6 533.7,399.9 540.3,340.7 
+			"/>
+	<polygon id="XMLID_75_" class="st27" points="400.3,893.3 471.7,1072.7 454.8,991 465.1,734.4 438.8,598.2 	"/>
+	<polygon id="XMLID_74_" class="st28" points="400.3,893.3 438.8,598.2 322.3,532.4 	"/>
+	<polygon id="XMLID_73_" class="st29" points="377.7,360.7 322.3,493.9 322.3,532.4 423.8,453.5 	"/>
+	<polygon id="XMLID_72_" class="st30" points="423.8,453.5 438.8,598.2 488.8,401.4 	"/>
+	<polygon id="XMLID_71_" class="st31" points="322.3,532.4 270.6,597.2 291.4,665.1 400.3,893.3 	"/>
+	<polygon id="XMLID_70_" class="st32" points="322.3,532.4 438.8,598.2 423.8,453.5 	"/>
+	<polygon id="XMLID_69_" class="st33" points="723.5,271.2 723.5,193.2 592.9,316.3 	"/>
+	<polygon id="XMLID_68_" class="st34" points="526.2,254.2 488.8,401.4 540.3,340.7 	"/>
+	<polyline id="XMLID_67_" class="st35" points="423.8,453.5 526.2,254.2 488.8,401.4 	"/>
+</g>
+</svg>
