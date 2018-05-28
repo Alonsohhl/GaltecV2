@@ -1455,11 +1455,11 @@ h3 {
 }
 
 ::-moz-selection {
-	background-color: #62e6ac
+	background-color: #ff0000
 }
 
 ::selection {
-	background-color: #62e6ac
+	background-color: #ff0000
 }
 
 ::-webkit-input-placeholder {
@@ -2131,10 +2131,11 @@ h3 {
 }
 
 .loader-bg {
-	width: 1100vw;
+	width: 100vw;
 	height: 100.1vh;
 	overflow: hidden;
 	will-change: transform
+	
 }
 
 .loader-logo {
