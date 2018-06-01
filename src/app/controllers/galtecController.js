@@ -9,5 +9,13 @@ controller.index2 = (req, res) => {
      console.log('Carga completa');
 
 };
+
+controller.test = (req, res) => {
+
+     
+    res.render('galtec/index2');
+    console.log('Carga completa 2');
+
+};
   
 module.exports = controller;

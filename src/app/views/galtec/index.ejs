@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" > 
+
 
 <head>
   
@@ -23,15 +24,13 @@
   <!-- <meta name="twitter:description" content="Scalable design solutions. Finding your business real needs and  -->
               <!-- making your users happier. Discovering problems and helping you to grow.  -->
               <!-- From copy creation to launch."> -->
-  <!-- <meta name="twitter:image" content="/site.png"> -->
+  <meta name="twitter:image" content="/site.png">
   <link rel="icon" type="image/png" href="/32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/16x16.png" sizes="16x16">
   <link rel="apple-touch-icon" href="/180x180.png" sizes="180x180">
   <!-- <link rel="stylesheet" href="css/app.71444104.css"> -->
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/borrar.css">
-
-
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
   
@@ -164,46 +163,45 @@
       </div>
    
       <header class="app-header">
-        <div class="app-header-logo">
-          <a href="/" class="router-link-exact-active is-active">
-            <img src="/img/logo.60e99242.svg" alt="">
-            <svg class="hill-valley article"></svg>
-          </a>
-        </div>
-        <div class="app-header-spacer"></div>
-        <nav class="app-menu">
-          <a href="/projects" class="item">Clientes</a>
-          <a href="/customer-story" class="item">Servicios</a>
-          <a href="/team" class="item">Equipo</a>
-          <a href="/processss" class="item">Proceso</a>
-          <a href="/lets-talk" class="item is-highlighted">Contáctanos</a>
-        </nav>
-        <div class="app-menu-mobile-btn">menu</div>
-        <div class="app-menu-mobile is-hidden">
-          <div class="app-menu-mobile-close">close</div>
-          <div class="app-menu-mobile-inner">
-            <ul>
-              <li>
-                <a href="/projects" class="item">projects</a>
-              </li>
-              <li>
-                <a href="/customer-story" class="item">customer story</a>
-              </li>
-              <li>
-                <a href="/team" class="item">meet our team</a>
-              </li>
-              <li>
-                <a href="/career" class="item">career</a>
-              </li>
-              <li>
-                <a href="/process" class="item">processs</a>
-              </li>
-              <li>
-                <a href="/lets-talk" class="item">lets talk</a>
-              </li>
-            </ul>
+          <div class="app-header-logo">
+              <a href="/" class="router-link-exact-active is-active">
+                  <img src="/img/logo.60e99242.svg" alt="">
+              </a>
           </div>
-        </div>
+          <div class="app-header-spacer"></div>
+          <nav class="app-menu">
+              <a href="/projects" class="item">projects</a>
+              <a href="/customer-story" class="item">customer story</a>
+              <a href="/team" class="item">meet our team</a>
+              <a href="/process" class="item">process</a>
+              <a href="/lets-talk" class="item is-highlighted">let's talk</a>
+          </nav>
+          <div class="app-menu-mobile-btn"  onclick="menu_nav_click()">menu</div>
+          <div class="app-menu-mobile is-hidden" id="menu_nav">
+              <div class="app-menu-mobile-close" onclick="menu_nav_click()">close</div>
+              <div class="app-menu-mobile-inner">
+                  <ul>
+                      <li>
+                          <a href="/projects" class="item">projects</a>
+                      </li>
+                      <li>
+                          <a href="/customer-story" class="item">customer story</a>
+                      </li>
+                      <li>
+                          <a href="/team" class="item">meet our team</a>
+                      </li>
+                      <li>
+                          <a href="/career" class="item">career</a>
+                      </li>
+                      <li>
+                          <a href="/process" class="item">process</a>
+                      </li>
+                      <li>
+                          <a href="/lets-talk" class="item">lets talk</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
       </header>
       <div data-v-e0113200="" role="main" class="app-container f-box hide-overflow">
         <div data-v-e0113200="" class="f-box">
@@ -272,11 +270,20 @@
   <script src="js/custom.v4.js" type="763953d7d2a825c2ce1a25a7-"></script>
   <!-- <script async="" src="https://assets.calendly.com/assets/external/widget.js" type="763953d7d2a825c2ce1a25a7-"></script> -->
   <script src="js/vendors_app.3e05d97e.js" type="763953d7d2a825c2ce1a25a7-"></script>
-  <script src="js/app.ea10a2dc.js" type="763953d7d2a825c2ce1a25a7-"></script>
+  <!-- <script src="js/app.ea10a2dc.js" type="763953d7d2a825c2ce1a25a7-"></script> -->
 
   <script>
     var s = new Snap('.hill-valley');
   </script>
+
+<script>
+    function menu_nav_click() {
+        var element = document.getElementById("menu_nav");
+        element.classList.remove("is-hidden");
+        }
+</script>
+
+
 </body>
 
 
