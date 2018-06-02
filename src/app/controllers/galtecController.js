@@ -10,11 +10,21 @@ controller.index2 = (req, res) => {
 
 };
 
-controller.test = (req, res) => {
-
-     
+controller.test = (req, res) => {     
     res.render('galtec/index2');
     console.log('Carga completa 2');
+
+};
+
+controller.contacto = (req, res) => {     
+    res.render('galtec/contacto');
+    console.log('Carga contacto cargando');
+
+};
+
+controller.nosotros = (req, res) => {     
+    res.render('galtec/nosotros');
+    console.log('osotros cargando');
 
 };
   
