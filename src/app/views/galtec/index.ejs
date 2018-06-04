@@ -25,9 +25,31 @@
               <!-- making your users happier. Discovering problems and helping you to grow.  -->
               <!-- From copy creation to launch."> -->
   <meta name="twitter:image" content="/site.png">
-  <link rel="icon" type="image/png" href="/32x32.png" sizes="32x32">
+  <!--link rel="icon" type="image/png" href="/32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="/180x180.png" sizes="180x180">
+  <link rel="apple-touch-icon" href="/180x180.png" sizes="180x180"-->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+
   <!-- <link rel="stylesheet" href="css/app.71444104.css"> -->
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/borrar.css">
@@ -161,48 +183,9 @@
         <img src="img/logo.svg" id="loader-bg" class="loader-bg" alt="Galtec">
         
       </div>
-   
-      <header class="app-header">
-          <div class="app-header-logo">
-              <a href="/" class="router-link-exact-active is-active">
-                  <img src="/img/logo.60e99242.svg" alt="">
-              </a>
-          </div>
-          <div class="app-header-spacer"></div>
-          <nav class="app-menu">
-              <a href="/" class="item">Inicio</a>
-              <a href="/customer-story" class="item">Clientes</a>
-              <a href="/nosotros" class="item">Nosotros</a>
-              <a href="/process" class="item">Servicios</a>
-              <a href="/contacto" class="item is-highlighted">Contactanos</a>
-          </nav>
-          <div class="app-menu-mobile-btn"  onclick="menu_nav_click()">menu</div>
-          <div class="app-menu-mobile is-hidden" id="menu_nav">
-              <div class="app-menu-mobile-close" onclick="menu_nav_click()">close</div>
-              <div class="app-menu-mobile-inner">
-                  <ul>
-                      <li>
-                          <a href="/" class="item">Inicio</a>
-                      </li>
-                      <li>
-                          <a href="/Clientes" class="item">Clientes</a>
-                      </li>
-                      <li>
-                          <a href="/nosotros" class="item">Nosotros</a>
-                      </li>
-                      <li>
-                          <a href="/Servicios" class="item">Servicios</a>
-                      </li>
-                      <!-- <li>
-                          <a href="/process" class="item">process</a>
-                      </li> -->
-                      <li>
-                          <a href="/contacto" class="item">Contactanos</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </header>
+      
+      <%- include includes/header %>
+
       <div data-v-e0113200="" role="main" class="app-container f-box hide-overflow">
         <div data-v-e0113200="" class="f-box">
           <div data-v-e0113200="" class="row as-center">
@@ -221,27 +204,27 @@
         </div>
         <footer data-v-e0113200="" class="footer">
           <div data-v-e0113200="" class="footer-links">
-            <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://dribbble.com/heartbeatagency/"
+            <!-- <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://dribbble.com/heartbeatagency/"
               class="dribbble link">
               <img data-v-e0113200="" src="/img/dribbble.5f0f0d90.svg" alt="" class="icon-social">
               <span data-v-e0113200="">Dribbble</span>
-            </a>
-            <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://www.behance.net/heartbeatua"
+            </a> -->
+            <!-- <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://www.behance.net/heartbeatua"
               class="link">
               <img data-v-e0113200="" src="/img/behance.b65638c6.svg" alt="" class="icon-social">
               <span data-v-e0113200="">Behance</span>
-            </a>
+            </a> -->
             <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/heartbeat.ua/"
               class="link">
               <span data-v-e0113200="">Instagram</span>
             </a>
-            <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://facebook.com/heartbeat.ua/"
+            <a data-v-e0113200="" target="_blank" rel="noopener noreferrer nofollow" href="https://www.facebook.com/GalTec.Peru/"
               class="link">
               <span data-v-e0113200="">Facebook</span>
             </a>
-            <a data-v-e0113200="" href="/press" class="link">
+            <!-- <a data-v-e0113200="" href="/press" class="link">
               <span data-v-e0113200="">Press</span>
-            </a>
+            </a> -->
           </div>
         </footer>
       </div>
