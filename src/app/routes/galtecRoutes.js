@@ -7,6 +7,7 @@ router.get('/', galtecController.index2);
 router.get('/test', galtecController.test);
 router.get('/contacto', galtecController.contacto);
 router.get('/nosotros', galtecController.nosotros);
+router.get('/servicios', galtecController.servicios);
 //router.post('/enviar', PanamController.enviar);
 //router.get('/exito', PanamController.exito);
 //router.get('/denuncia', PanamController.denuncia);

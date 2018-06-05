@@ -6,11 +6,11 @@
         </div>
         <div class="app-header-spacer"></div>
         <nav class="app-menu">
-            <a href="/" class="item">Inicio</a>
-            <a href="/customer-story" class="item">Clientes</a>
-            <a href="/nosotros" class="item">Nosotros</a>
-            <a href="/process" class="item">Servicios</a>
-            <a href="/contacto" class="item is-highlighted">Contactanos</a>
+            <a href="/" class="item <%= locals.option==='inicio' ? 'is-active' : ' ' %> ">Inicio</a>
+            <a href="/customer-story" class="item  <%= locals.option==='clientes' ? 'is-active' : ' ' %>">Clientes</a>
+            <a href="/nosotros " class="item  <%= locals.option==='nosotros' ? 'is-active' : ' ' %>">Nosotros</a>
+            <a href="/servicios" class="item  <%= locals.option==='servicios' ? 'is-active' : ' ' %>">Servicios</a>
+            <a href="/contacto" class="item is-highlighted  <%= locals.option==='contacto' ? 'is-active' : ' ' %>">Contactanos</a>
         </nav>
         <div class="app-menu-mobile-btn"  onclick="menu_nav_click()">menu</div>
         <div class="app-menu-mobile is-hidden" id="menu_nav">
@@ -18,7 +18,7 @@
             <div class="app-menu-mobile-inner">
                 <ul>
                     <li>
-                        <a href="/" class="item">Inicio</a>
+                        <a href="/" class="item  <%= locals.option=='inicio' ? 'option' : 'asd' %>">Inicio</a>
                     </li>
                     <li>
                         <a href="/Clientes" class="item">Clientes</a>
@@ -27,7 +27,7 @@
                         <a href="/nosotros" class="item">Nosotros</a>
                     </li>
                     <li>
-                        <a href="/Servicios" class="item">Servicios</a>
+                        <a href="/servicios" class="item">Servicios</a>
                     </li>
                     <!-- <li>
                         <a href="/process" class="item">process</a>

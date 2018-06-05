@@ -27,5 +27,11 @@ controller.nosotros = (req, res) => {
     console.log('osotros cargando');
 
 };
+
+controller.servicios = (req, res) => {     
+    res.render('galtec/servicios');
+    console.log('osotros cargando');
+
+};
   
 module.exports = controller;
