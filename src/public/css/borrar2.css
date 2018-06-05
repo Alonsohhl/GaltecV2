@@ -9428,8 +9428,8 @@ html.no-isdesktop{
 }
 .app-menu .item.is-highlighted{
     z-index:1;
-    background-color:#ff8c5f;
-    border-color:#ff8c5f;
+    background-color:#e70011;
+    border-color:#e70011;
     color:#fff
 }
 .app-menu .item.is-active,.app-menu .item:hover{
