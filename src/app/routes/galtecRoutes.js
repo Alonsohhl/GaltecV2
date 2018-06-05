@@ -14,7 +14,7 @@ router.get('/servicios', galtecController.servicios);
 //router.post('/enviar_denuncia', PanamController.enviar_denuncia);
 /*router.post('/add', customerController.save);
 router.get('/update/:id', customerController.edit);
-router.post('/update/:id', customerController.update);
+                    router.post('/update/:id', customerController.update);
 router.get('/delete/:id', customerController.delete);
 */
 module.exports = router;

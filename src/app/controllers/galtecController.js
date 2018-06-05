@@ -24,13 +24,13 @@ controller.contacto = (req, res) => {
 
 controller.nosotros = (req, res) => {     
     res.render('galtec/nosotros');
-    console.log('osotros cargando');
+    console.log('Nosotros cargando');
 
 };
 
 controller.servicios = (req, res) => {     
     res.render('galtec/servicios');
-    console.log('osotros cargando');
+    console.log('servicios cargando');
 
 };
   
