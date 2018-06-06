@@ -1,6 +1,6 @@
 const controller = {};
 
-nodemailer = require('nodemailer');
+//nodemailer = require('nodemailer');
 
 controller.index2 = (req, res) => {
 
@@ -35,7 +35,7 @@ controller.servicios = (req, res) => {
 };
 
 
-controller.enviar_msg = (req, res) => {
+controller.enviar_msg = (req, res) => {/*
     output =`
        <p> Sugerencia o queja </p>
        <h3>=== Detalles ===</h3>
@@ -84,7 +84,7 @@ controller.enviar_msg = (req, res) => {
    //        res.render('form/forms', {msg:'1'});
        });
        //res.render('form/exito');
-       console.log(output);
+       console.log(output);*/
      };
    
   
