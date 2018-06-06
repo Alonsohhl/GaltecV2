@@ -38,7 +38,7 @@ controller.servicios = (req, res) => {
 controller.enviar_msg = (req, res) => {
 
     console.log('enviando mail');
-    /*
+    
     output =`
        <p> Sugerencia o queja </p>
        <h3>=== Detalles ===</h3>
@@ -87,7 +87,7 @@ controller.enviar_msg = (req, res) => {
    //        res.render('form/forms', {msg:'1'});
        });
        //res.render('form/exito');
-       console.log(output);*/
+       console.log(output);
      };
    
   
