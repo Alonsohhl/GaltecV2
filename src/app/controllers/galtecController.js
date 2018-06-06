@@ -54,11 +54,11 @@ controller.enviar_msg = (req, res) => {
        `;
    
        let transporter = nodemailer.createTransport({
-         host: 'smtp.gmail.com',
-         port: 587,//25,//587,
-         secure: false, // true for 465, false for other ports
+         host: 'smtp.zoho.com',
+         port: 465,//25,//587,
+         secure: true, // true for 465, false for other ports
          auth: {
-             user: 'galtec.inf@gmail.com', // generated ethereal user
+             user: 'alonso.hhl@galtec.org', // generated ethereal user
              pass: 'alonsoucsm'  // generated ethereal password
          },
          tls:{
@@ -68,8 +68,8 @@ controller.enviar_msg = (req, res) => {
    
        let mailOptions = {
            from: '"Galtec Mailer Contacto" <alonso.hhl@galtec.org>', // sender address
-           to: 'alonso.hhl@galtec.org',// list of receivers
-           subject: 'recepcion de sugerencias', // Subject line
+           to: 'admin@galtec.org , alonso.hhl@galtec.org , diana.pd@galtec.org',// list of receivers
+           subject: 'recepcion de solicitud', // Subject line
            text: 'Revise el correo en un navegador valido, compatible con HTML', // plain text body
            html: output // html body ,
            
