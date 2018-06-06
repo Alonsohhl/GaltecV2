@@ -165,7 +165,7 @@
                         </div>
                         <div data-v-4a13d1bc="" class="row row-form">
                             <div data-v-4a13d1bc="" class="tile-xs-12 tile-lg-6 s-3">
-                                <form data-v-4a13d1bc="" action="#" novalidate="novalidate" class="form">
+                                <form data-v-4a13d1bc=""  novalidate="novalidate" class="form needs-validation" method="POST" action="/enviar_msg" >
                                     <div data-v-4a13d1bc="" class="form-inner">
                                         <div data-v-4a13d1bc="" class="s-2">
                                             <span data-v-4a13d1bc="" class="s-1">Hola, mi nombre es</span>
@@ -187,12 +187,12 @@
                                             <input data-v-4a13d1bc="" name="budget"
                                                 type="number" placeholder="Soles" min="0" step="1000" class="text-field">
                                         </div>
-                                        <input data-v-4a13d1bc="" type="hidden" name="ip" value="77.222.139.167">
+                                        <!--input data-v-4a13d1bc="" type="hidden" name="ip" value="77.222.139.167">
                                         <input data-v-4a13d1bc="" type="hidden" name="country" value="Ukraine">
-                                        <input data-v-4a13d1bc="" type="hidden" name="system" value="OS X 10.12.0">
+                                        <input data-v-4a13d1bc="" type="hidden" name="system" value="OS X 10.12.0"-->
                                     </div>
                                     <div data-v-4a13d1bc="" class="btn-wrap">
-                                        <button data-v-4a13d1bc="" class="btn-cta">
+                                        <button data-v-4a13d1bc="" class="btn-cta" type="submit">
                                             Enviar
                                         </button>
                                     </div>
@@ -266,8 +266,37 @@
         var element = document.getElementById("menu_nav");
         element.classList.remove("is-hidden");
         }
+
+
 </script>
 
+<script>
+        
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }else{
+              //    document.getElementById("loader2").style.visibility = "visible";
+             //     document.getElementById("navbar").style.visibility = "hidden";
+                }
+                form.classList.add('was-validated');
+                
+              }, false);
+            });
+          }, false);
+        })();
+
+
+</script>
 
 </body>
 
