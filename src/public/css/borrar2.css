@@ -9583,7 +9583,7 @@ html.no-isdesktop{
     }
 }
 .row[data-v-e0113200]{
-    max-width:1090px
+    max-width:1350px
 }
 h1[data-v-e0113200]{
     line-height:1.07
@@ -9609,9 +9609,14 @@ h1[data-v-e0113200]{
     }
 }
 @media(min-width:768px) and (max-width:1500px){
+    .row[data-v-e0113200]{
+        max-width:1150px}
+
     h1[data-v-e0113200]{
-        font-size:89px
+        font-size:75px;
     }
+
+
 }
 @media(min-width:1501px){
     h1[data-v-e0113200]{
@@ -9622,7 +9627,7 @@ h1 .line[data-v-e0113200]{
     border-bottom:2px solid
 }
 p[data-v-e0113200]{
-    max-width:590px;
+    max-width:650;
     margin-bottom:58px
 }
 .btn-wrap[data-v-e0113200]{

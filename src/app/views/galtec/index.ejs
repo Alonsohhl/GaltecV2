@@ -137,13 +137,13 @@
         <div data-v-e0113200="" class="f-box">
           <div data-v-e0113200="" class="row as-center">
             <div data-v-e0113200="" class="tile-xs-12">
-              <h1 data-v-e0113200="">Tu negocio es genial, la forma en que se ve no<br/>
-                <a data-v-e0113200="" href="/team" class="link-nice">Podemos ayudarte.</a>
+              <h1 data-v-e0113200=""><strong>Tu negocio es genial, pero no esta en Internet <br/>
+                <a data-v-e0113200="" href="/servicios" class="link-nice">PODEMOS AYUDARTE. </strong></a>
               </h1>
-              <p data-v-e0113200="" class="text-big text"> En <strong>GALTEC</strong> entendemos que cada empresa es única, por eso nos preocupamos por hacer un análisis de las necesidades de tu empresa.
+              <p data-v-e0113200="" class="text-big text">Tu negocio necesita presencia en internet, una pagina web que haga crecer tu negocio y aumentar tu presencia en las redes sociales más importantes como Facebook.
               </p>
               <div data-v-e0113200="" class="btn-wrap">
-                <button data-v-e0113200="" type="button" class="btn-black wide">ver nuestros servicios
+                <button data-v-e0113200="" type="button" class="btn-black wide" id="myButton_serv">ver nuestros servicios
                 </button>
               </div>
             </div>
@@ -210,7 +210,11 @@
     function menu_nav_click() {
         var element = document.getElementById("menu_nav");
         element.classList.remove("is-hidden");
-        }
+				};
+		
+		document.getElementById("myButton_serv").onclick = function () {
+        location.href = "/servicios";
+    };
 
 
 </script>
