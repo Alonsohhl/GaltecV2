@@ -9570,7 +9570,8 @@ html.no-isdesktop{
 .app-header-logo{
     position:relative;
     z-index:2;
-    margin-right:50px
+    margin-right:50px;
+    margin-top:50px
 }
 @media(min-width:768px) and (max-width:991px){
     .app-header-logo{
