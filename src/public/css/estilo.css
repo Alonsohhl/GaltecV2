@@ -96,7 +96,7 @@
 
 section.hero-section {
   width: 100%;
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh);
   background-color: #e60012;
   margin-bottom: 3em;
   text-align: center;
@@ -104,13 +104,44 @@ section.hero-section {
   padding-bottom: 60px;
   overflow: hidden; }
 
+section.hero-section .hero-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -57%);
+  transform: translate(-50%, -57%);
+  z-index: 11; }
+
+section.hero-section #logo {
+  position: relative;
+  width: 300px;
+  height: 375px;
+  margin: 0 auto 30px;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  z-index: 20; }
+
+section.hero-section #logo h1 {
+  margin: 0 auto 0;
+  width: 300px;
+  height: 375px;
+  background: url(../img/logo.60e99242.svg) no-repeat 0 0;
+  background-size: 15000px 411px; }
+
+section.hero-section #logo h1 img {
+  margin-top: 365px; }
+
 @media screen and (max-height: 650px) {
-  section.hero-section section.hero-section div.hero-center {
+  section.hero-section div.hero-center {
     position: static;
     -webkit-transform: initial;
     transform: initial;
     left: initial;
     top: initial; } }
+
+@media screen and (max-width: 570px) {
+  section.hero-section .hero-center {
+    top: 40%; } }
 
 /*
     section.games-section{

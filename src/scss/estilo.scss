@@ -83,17 +83,51 @@ $Color_main:#e70011;
     
 
     
+    
     section.hero-section{
+       
         width:100%;
-        min-height:calc(100vh - 72px);
+        min-height:calc(100vh);
         background-color:#e60012;
         margin-bottom:3em;
         text-align:center;
         position:relative;
         padding-bottom:60px;
         overflow:hidden;
+
+        .hero-center{
+            position:absolute;
+            left:50%;
+            top:50%;
+            -webkit-transform:translate(-50%,-57%);
+            transform:translate(-50%,-57%);
+            z-index:11
+        }
+
+        #logo{
+            position:relative;
+            width:300px;
+            height:375px;
+            margin:0 auto 30px;
+            -webkit-transform:scale(.8);
+            transform:scale(.8);
+            z-index:20
+        }
+        #logo h1{
+            margin:0 auto 0;
+            width:300px;
+            height:375px;
+            background:url(../img/logo.60e99242.svg) no-repeat 0 0;
+            background-size:15000px 411px
+        }
+        #logo h1 img{
+            margin-top:365px
+        }
+
+
         @media screen and (max-height:650px){
-            section.hero-section div.hero-center{
+            //section.hero-section 
+            div.hero-center{
                 position:static;
                 -webkit-transform:initial;
                 transform:initial;
@@ -101,8 +135,13 @@ $Color_main:#e70011;
                 top:initial
                 }
         }
-    }
 
+        @media screen and (max-width:570px){
+            .hero-center{
+                top:40%
+            }
+        }
+    }
 
     /*
     section.games-section{
