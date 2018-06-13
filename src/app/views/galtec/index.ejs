@@ -6,7 +6,7 @@
 </head>
  
 <body style="overflow: scroll;"> 
-  <div id="loader" class="loader2">
+  <div id="loader" class="loader2" style="opacity: 0;">
       <div id="" class="loader-iconn">
     
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -140,22 +140,22 @@
 				<div class="hero-center">
 	
 					<div id="logo">
-						<h1 style="background-position: -14100px 0px;">
-							<img alt="Nintendo Switch™" height="" src="/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/home/logo_txt.png" width="300">
+						<h1 >
+							<img alt="Galtec" height="" src="img/galtec-tittle.png" width="300">
 						</h1>
 					</div>
 	
 					<div class="hero-content">
-						<span class="hero-date">Available now</span><span class="hero-price">$299.99 <small>MSRP*</small></span>
+						<span class="subtittle">Paginas Web, Desarrollo de Software, Marketing Digital <br> </span><span class="txt_aqp">Arequipa<small></small></span>
 					</div>
 					
 					
 					
 				</div>
 	
-				<div id="hero-slideshow" class="hero-slideshow is-visible" style="background-image: url(/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/home/hero/bg.jpg)">
-					<div id="next-slideshow-image" class="is-visible">
-						<div id="next-slideshow-image-scale" style="background-image: url(/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/home/hero/5.jpg)"> </div>
+				<div id="hero-slideshow" class="hero-slideshow is-visible" style="">
+					<div id="next-slideshow-image" class="">
+						<div id="next-slideshow-image-scale" style=""> </div>
 					</div>
 				</div>
 	
@@ -216,12 +216,12 @@
     window.addEventListener("load",function(){
       document.getElementById("loader").style.opacity=0;
       document.getElementById("loader").style.zIndex = -1;
-      setTimeout(function () {
+    //  setTimeout(function () {
 //        document.getElementById("loader").style.visibility="hidden";
 //          document.getElementById("loader").style.opacity=0;
         
         
-    }, 3000);
+    //}, 3000);
      // document.getElementById("loader").style.visibility="hidden";
     });
     
@@ -234,7 +234,7 @@
   <!-- <script src="js/app.ea10a2dc.js" type="763953d7d2a825c2ce1a25a7-"></script> -->
 
   <script>
-    var s = new Snap('.hill-valley');
+    //var s = new Snap('.hill-valley');
   </script>
 
 <script>
@@ -250,6 +250,72 @@
 
 </script>
 
+<script>
+
+var str_in = "url(img/slider_1.jpg)";
+var str_out = "url(img/bg.jpg)";
+
+
+
+function slider(str_in,str_out){
+
+setTimeout(function() {
+
+		//	$( "#next-slideshow-image" ).last().addClass( "is-visible" );
+		//	$( "#next-slideshow-image" ).css("background-image","url(img/slider_1.jpg)");
+		
+ 			$( "#next-slideshow-image" ).removeClass("is-visible");
+			$( "#next-slideshow-image" ).css("background-image",str_in);
+			$( "#hero-slideshow" ).css("background-image",str_out);
+			
+			setTimeout(
+			function()
+			{
+				
+				$( "#next-slideshow-image" ).last().addClass("is-visible");
+			//	$( "#hero-slideshow" ).css("background-image",str_in);
+		//		$( "next-slideshow-image-scale" ).removeClass("is-visible");
+		//		$( "#next-slideshow-image" ).removeClass("is-visible");
+		//		$( "#next-slideshow-image" ).last().addClass( "is-visible" );
+				$( "#next-slideshow-image-scale" ).css("background-image",str_in);
+		//		$( "#next-slideshow-image" ).css("background-image",str_in);
+				//	var str_in = "url(img/slider_2.jpg)";
+		//			var str_out = "url(img/bg.jpg)";
+//					setTimeout(slider("url(img/slider_2.jpg)","url(img/slider_1.jpg)"),3000);
+					setTimeout(slider("url(img/slider_1.jpg)","url(img/bg.jpg)"),3000);
+			}, 3000);
+
+		}, 3000);
+	
+};
+slider("url(img/slider_1.jpg)","url(img/bg.jpg)");
+
+/*
+$( "#next-slideshow-image" ).removeClass("is-visible");
+var t= setTimeout(
+function() 
+{
+	$( "#next-slideshow-image" ).last().addClass( "is-visible" );
+	$( "#next-slideshow-image" ).css("background-image","url(img/slider_1.jpg)");
+	
+}, 3000);
+
+/*	var t= setTimeout(
+  function() 
+  {
+		$( "#next-slideshow-image" ).last().addClass( "is-visible" );
+  }, 5000);
+	$.when(t).done(function() {
+  	$( "#next-slideshow-image" ).removeClass("is-visible")
+	});
+	
+	setTimeout(
+  function() 
+  {
+		$( "#next-slideshow-image" ).removeClass("is-visible")
+  }, 100000);*/
+	
+</script>
 
 </body>
 
