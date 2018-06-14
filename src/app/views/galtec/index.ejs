@@ -263,32 +263,36 @@ setTimeout(function() {
 
 		//	$( "#next-slideshow-image" ).last().addClass( "is-visible" );
 		//	$( "#next-slideshow-image" ).css("background-image","url(img/slider_1.jpg)");
-		
- 			$( "#next-slideshow-image" ).removeClass("is-visible");
-			$( "#next-slideshow-image" ).css("background-image",str_in);
-			$( "#hero-slideshow" ).css("background-image",str_out);
+			
+			$( "#hero-slideshow" ).css("background-image",str_in);					
+			$( "#next-slideshow-image-scale" ).css("background-image",str_out);
+			$( "#next-slideshow-image").removeClass("is-visible");
+
+			//$( "#hero-slideshow" ).css("background-image",str_out);
 			
 			setTimeout(
 			function()
 			{
 				
-				$( "#next-slideshow-image" ).last().addClass("is-visible");
-			//	$( "#hero-slideshow" ).css("background-image",str_in);
+				setTimeout(($( "#next-slideshow-image" ).last().addClass("is-visible")),2000);
+		//		setTimeout(($( $( "#hero-slideshow" ).css("background-image",str_in)).removeClass("is-visible")),1000);
+				
 		//		$( "next-slideshow-image-scale" ).removeClass("is-visible");
 		//		$( "#next-slideshow-image" ).removeClass("is-visible");
 		//		$( "#next-slideshow-image" ).last().addClass( "is-visible" );
-				$( "#next-slideshow-image-scale" ).css("background-image",str_in);
+					
 		//		$( "#next-slideshow-image" ).css("background-image",str_in);
 				//	var str_in = "url(img/slider_2.jpg)";
 		//			var str_out = "url(img/bg.jpg)";
 //					setTimeout(slider("url(img/slider_2.jpg)","url(img/slider_1.jpg)"),3000);
-					setTimeout(slider("url(img/slider_1.jpg)","url(img/bg.jpg)"),3000);
-			}, 3000);
+			//			setTimeout(slider("url(img/slider_1.jpg)","url(img/bg.jpg)"),2000);
+			}, 1000);
 
-		}, 3000);
+		}, 2000);
 	
 };
-slider("url(img/slider_1.jpg)","url(img/bg.jpg)");
+
+slider("url(img/bg.jpg)","url(img/slider_1.jpg)");//imagen activa, imagen nueva
 
 /*
 $( "#next-slideshow-image" ).removeClass("is-visible");

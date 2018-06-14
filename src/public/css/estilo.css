@@ -160,7 +160,7 @@ section.hero-section #next-slideshow-image, section.hero-section .hero-slideshow
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  z-index: 1;
+  z-index: 10;
   -webkit-transition: none;
   transition: none; }
 
