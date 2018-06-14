@@ -148,9 +148,6 @@
 					<div class="hero-content">
 						<span class="subtittle">Paginas Web, Desarrollo de Software, Marketing Digital <br> </span><span class="txt_aqp">Arequipa<small></small></span>
 					</div>
-					
-					
-					
 				</div>
 	
 				<div id="hero-slideshow" class="hero-slideshow is-visible" style="">
@@ -158,11 +155,15 @@
 						<div id="next-slideshow-image-scale" style=""> </div>
 					</div>
 				</div>
-	
-				<a href="#" class="btn-hero-arrow"> </a>
+				
+				<a href="#" class="btn-hero-arrow">
+						<i class="icon fas fa-angle-down" style="font-size:5em"></i>
+			  </a>
 	
 			</section>
-			
+
+			<%- include('includes/index/serv_inf'); %>
+		
 
       <div data-v-e0113200="" role="main" class="app-container f-box hide-overflow">
         <div data-v-e0113200="" class="f-box">
@@ -257,66 +258,51 @@ var str_out = "url(img/bg.jpg)";
 
 
 
-function slider(str_in,str_out){
+function slider(str_in,str_out,index){
 
 setTimeout(function() {
-
-		//	$( "#next-slideshow-image" ).last().addClass( "is-visible" );
-		//	$( "#next-slideshow-image" ).css("background-image","url(img/slider_1.jpg)");
-			
-			$( "#hero-slideshow" ).css("background-image",str_in);					
+//			$( "#hero-slideshow" ).css("background-image",str_in);					
 			$( "#next-slideshow-image-scale" ).css("background-image",str_out);
 			$( "#next-slideshow-image").removeClass("is-visible");
-
-			//$( "#hero-slideshow" ).css("background-image",str_out);
-			
-			setTimeout(
-			function()
-			{
-				setTimeout(($( "#next-slideshow-image" ).last().addClass("is-visible")),2000);
-		//		setTimeout(($( $( "#hero-slideshow" ).css("background-image",str_in)).removeClass("is-visible")),1000);
+			setTimeout(function(){
+				$("#next-slideshow-image" ).last().addClass("is-visible");
 				
-		//		$( "next-slideshow-image-scale" ).removeClass("is-visible");
-		//		$( "#next-slideshow-image" ).removeClass("is-visible");
-		//		$( "#next-slideshow-image" ).last().addClass( "is-visible" );
+				setTimeout(function(){
+					$( "#hero-slideshow" ).css("background-image",str_out);	
+					switch (index) {
+						case 0:
+								slider("url(img/slider_1.jpg)","url(img/bg.jpg)",1);
+								break;
+						case 1:
+								slider("url(img/bg.jpg)","url(img/slider_2.jpeg)",2);
+								break;
+						case 2:
+								slider("url(img/slider_2.jpeg)","url(img/bg.jpg)",3);
+								break;
+						case 3:
+								slider("url(img/bg.jpg)","url(img/slider_3.jpeg)",4);
+								break;
+						case 4:
+								slider("url(img/slider_3.jpeg)","url(img/bg.jpg)",5);
+								break;
+						case 5:
+								slider("url(img/bg.jpg)","url(img/slider_4.jpeg)",6);
+								break;
+						case 6:
+								slider("url(img/slider_4.jpeg)","url(img/bg.jpg)",7);
+								break;
+						case 7:
+								slider("url(img/bg.jpg)","url(img/slider_1.jpg)",0);
+								break;
+						
+				}
 					
-		//		$( "#next-slideshow-image" ).css("background-image",str_in);
-				//	var str_in = "url(img/slider_2.jpg)";
-		//			var str_out = "url(img/bg.jpg)";
-//					setTimeout(slider("url(img/slider_2.jpg)","url(img/slider_1.jpg)"),3000);
-			//			setTimeout(slider("url(img/slider_1.jpg)","url(img/bg.jpg)"),2000);
+					},2000);
 			}, 1000);
-
-		}, 2000);
-	
+		}, 500);
 };
 
-slider("url(img/bg.jpg)","url(img/slider_1.jpg)");//imagen activa, imagen nueva
-
-/*
-$( "#next-slideshow-image" ).removeClass("is-visible");
-var t= setTimeout(
-function() 
-{
-	$( "#next-slideshow-image" ).last().addClass( "is-visible" );
-	$( "#next-slideshow-image" ).css("background-image","url(img/slider_1.jpg)");
-	
-}, 3000);
-
-/*	var t= setTimeout(
-  function() 
-  {
-		$( "#next-slideshow-image" ).last().addClass( "is-visible" );
-  }, 5000);
-	$.when(t).done(function() {
-  	$( "#next-slideshow-image" ).removeClass("is-visible")
-	});
-	
-	setTimeout(
-  function() 
-  {
-		$( "#next-slideshow-image" ).removeClass("is-visible")
-  }, 100000);*/
+slider("url(img/bg.jpg)","url(img/slider_1.jpg)",0);
 	
 </script>
 
