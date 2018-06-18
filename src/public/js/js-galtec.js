@@ -59,10 +59,15 @@ var toolsButtons = $('#toolsButtons').find('li'),
     toolsContents = $('#toolsContents').find('li'),
     PreloadImages = {},
     SliderBigImageObj = $("#slider_big_image"),
-    slideImageWrapper = $('#slideImage');
+	slideImageWrapper = $('#slideImage');
+	
+toolsButtons.each(function (i) {
+	PreloadImages[this.id] = new Image();
+	PreloadImages[this.id].src = $(this).data("image");
+});
 
 toolsButtons.click(function(e){
-    e.preventDefault();
+    e.preventDefault();//reviene que se ejecute la accion por ejemplo https://api.jquery.com/event.preventdefault/
     var index = $(this).index();
     showTools(index);
 });
